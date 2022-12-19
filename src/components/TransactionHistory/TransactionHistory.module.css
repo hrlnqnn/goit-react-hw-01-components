@@ -1,0 +1,32 @@
+.transactionHistory {
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.transactionInfo {
+    color: #fff;
+    background-color: rgb(53, 226, 242);
+}
+
+.transactionInfoItem {
+    width: 200px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.transactionDetails {
+    background-color: rgb(223, 225, 226);
+}
+
+.transactionDetails:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.transactionDetailsItem {
+    composes: transactionInfoItem;
+    color: rgb(0, 0, 0);
+
+}

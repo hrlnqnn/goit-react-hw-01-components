@@ -1,0 +1,27 @@
+.item {
+    min-width: 250px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.status {
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.online {
+    composes: status;
+    background-color: green;
+}
